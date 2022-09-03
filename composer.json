@@ -1,0 +1,26 @@
+{
+    "name": "dwikipeddos/laravel-google-distance",
+    "description": "a wrapper for http request to google and decode the distance",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dwikipeddos\\LaravelGoogleDistance\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "dwikipeddos",
+            "email": "arisxxx5@gmail.com"
+        }
+    ],
+    "require": {
+        "spatie/laravel-data": "^2.0"
+    },
+    "extra": {
+        "laravel":{
+            "providers": [
+                "Dwikipeddos\\LaravelGoogleDistance\\GoogleDistanceServiceProvider"
+            ]
+        }
+    }
+}

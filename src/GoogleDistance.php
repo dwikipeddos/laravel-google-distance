@@ -1,6 +1,6 @@
 <?php
 
-namespace Dwikipeddos\LaravelGoogleDistance\Service;
+namespace Dwikipeddos\LaravelGoogleDistance;
 
 use Dwikipeddos\LaravelGoogleDistance\Data\GoogleDistanceResultData;
 use Exception;
